@@ -23,9 +23,11 @@ print(largest([10, 4, 3, 213, 91]))
 #! occurrences
 
 def occurrences(str1, str2):
-  total = 0
-  for 
+  return str1.count(str2)
+
+print(occurrences('feep', 'e'))
+print(occurrences('bananananana', 'a'))
 
 
-
+#! product
 
