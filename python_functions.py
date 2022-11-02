@@ -31,3 +31,11 @@ print(occurrences('bananananana', 'a'))
 
 #! product
 
+def product(*args):
+  sum = 1
+  for arg in args:
+    sum *= arg
+  return sum
+
+print(product(2, 2, 2))
+print(product(1, 3, 4))
